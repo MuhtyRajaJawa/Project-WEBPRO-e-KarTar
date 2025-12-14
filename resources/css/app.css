@@ -1,0 +1,21 @@
+/* tambahkan di resources/css/app.css */
+:root {
+  --primary: #004aad;
+  --accent: #f7b731;
+  --light: #f2f2f2;
+  --text-dark: #333;
+}
+body {
+  font-family: 'SF Pro Display', 'Poppins', sans-serif;
+  background-color: var(--light);
+  color: var(--text-dark);
+}
+h1, h2, h3 {
+  font-family: 'SF Pro Condensed', 'Roboto Condensed', sans-serif;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+}
