@@ -113,7 +113,7 @@
 
         </div>
 
-        <h2>Login Admin test</h2>
+        <h2>Login Admin</h2>
 
         {{-- ERROR GLOBAL DARI Auth::attempt / VALIDASI --}}
         @if ($errors->any())
