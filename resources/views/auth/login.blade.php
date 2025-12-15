@@ -107,7 +107,7 @@
             {{-- ganti ke logo yang kamu punya --}}
             <img src="{{ asset('backend/adminmart-master/assets/images/52.png') }}"
             alt="Logo Karang Taruna"
-            style="width: 180px !important;"><!--GANTI LOGO KARTAR DISINI YAWW-->
+            style="width: 180px !important;"><!--GANTI LOGO KARTAR DISINI-->
 
 
 
