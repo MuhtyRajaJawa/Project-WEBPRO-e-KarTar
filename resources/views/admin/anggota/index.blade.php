@@ -70,7 +70,7 @@
                 {{-- ============================== --}}
                 {{-- TABEL ANGGOTA BIASA --}}
                 {{-- ============================== --}}
-                <h5 class="text-primary fw-bold mb-2">ANGGOTA BIASA</h5><!--GANTI WARNA TEKS DISINI JINK-->
+                <h5 class="text-primary fw-bold mb-2">ANGGOTA KARTAR</h5><!--GANTI WARNA TEKS DISINI JINK-->
 
                 <div class="table-responsive">
                     <table class="table align-middle mb-0">
