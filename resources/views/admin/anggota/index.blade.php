@@ -10,7 +10,7 @@
                 {{-- Header --}}
                 <div class="d-flex align-items-center mb-3">
                     <i class="ti ti-users fs-3 text-info me-2"></i>
-                    <h4 class="mb-0 text-info">DATA ANGGOTA KARTAR</h4> <!--GANTI WARNA TEKS DISINI JINK-->
+                    <h4 class="mb-0 text-info">DATA ANGGOTA KARTAR</h4> <!--GANTI WARNA TEKS DISINI-->
                 </div>
 
                 {{-- Tombol Tambah --}}
