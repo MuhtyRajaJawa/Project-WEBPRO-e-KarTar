@@ -30,7 +30,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Tanggal Selesai</label>
-                        <input type="date" name="tanggal_selesai" class="form-control" required><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT" DISINI YAWW-->
+                        <input type="date" name="tanggal_selesai" class="form-control" required><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT"-->
                     </div>
 
                     <div class="mb-3">
@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label">Status</label><!--GANTI TEKS STATUS DISINI YAA-->
+                        <label class="form-label">Status</label><!--GANTI TEKS STATUS DISINI-->
                         <select name="status" class="form-control">
                             <option value="Rencana">Rencana</option>
                             <option value="Berjalan">Berjalan</option>
@@ -49,11 +49,11 @@
 
                     <div class="d-flex justify-content-between">
 
-                        <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary"><!--GANTI TEKS/ICON DISINI YAWW-->
+                        <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary"><!--GANTI TEKS/ICON DISINI-->
                             Kembali
                         </a>
 
-                        <button type="submit" class="btn btn-primary">Simpan</button><!--GANTI TEKS/ICON DISINI YAWW-->
+                        <button type="submit" class="btn btn-primary">Simpan</button><!--GANTI TEKS/ICON DISINI-->
 
                     </div>
                 </form>
