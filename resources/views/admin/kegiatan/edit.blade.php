@@ -30,7 +30,7 @@
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Tanggal Mulai</label>
                         <input type="date" name="tanggal_mulai" class="form-control"
-                               value="{{ $kegiatan->tanggal_mulai }}" required><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT" DISINI YAWW-->
+                               value="{{ $kegiatan->tanggal_mulai }}" required>
                     </div>
 
                     <div class="mb-3">
