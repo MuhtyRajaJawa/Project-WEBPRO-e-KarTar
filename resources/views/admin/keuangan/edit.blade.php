@@ -24,17 +24,17 @@
             <div class="mb-3">
                 <label>Tipe</label>
                 <select name="tipe" class="form-select"><!--GANTI INFO DISINI YAWW-->
-                    <option value="pemasukan" {{ $data->tipe == 'pemasukan'?'selected':'' }}>Pemasuka</option>
+                    <option value="pemasukan" {{ $data->tipe == 'pemasukan'?'selected':'' }}>Pemasukan</option>
                     <option value="pengeluaran" {{ $data->tipe == 'pengeluaran'?'selected':'' }}>Pengeluaran</option>
                 </select>
             </div>
 
             <div class="mb-3">
                 <label>Tanggal</label>
-                <input type="date" name="tanggal" value="{{ $data->tanggal }}" class="form-control"><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT" DISINI YAWW-->
+                <input type="date" name="tanggal" value="{{ $data->tanggal }}" class="form-control"><!--ganti tanggal jd teks 'date, ganti 'text' disini-->
             </div>
 
-            <button class="btn btn-primary"><!--GANTI TEKS/ICON DISINI YAWW-->
+            <button class="btn btn-primary"><!--ini buat ganti teks/ iconnya-->
                 <i class="fa fa-save me-2"></i> Update
             </button>
 
