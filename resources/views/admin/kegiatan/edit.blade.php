@@ -36,7 +36,7 @@
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Tanggal Selesai</label>
                         <input type="date" name="tanggal_selesai" class="form-control"
-                               value="{{ $kegiatan->tanggal_selesai }}" required><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT" DISINI YAWW-->
+                               value="{{ $kegiatan->tanggal_selesai }}" required>
                     </div>
 
                     <div class="mb-3">
@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label fw-semibold">Status</label><!--GANTI TEKS STATUS DISINI YAA-->
+                        <label class="form-label fw-semibold">Status</label>
                         <select name="status" class="form-select">
                             <option value="Rencana" {{ $kegiatan->status == 'Rencana' ? 'selected' : '' }}>Rencana</option>
                             <option value="Berjalan" {{ $kegiatan->status == 'Berjalan' ? 'selected' : '' }}>Berjalan</option>
