@@ -4,7 +4,7 @@
 <div class="card">
     <div class="card-body">
 
-        <h4><i class="fa fa-plus-circle me-2"></i> Tambah Transaksi</h4><!--GANTI TEKS/ICON DISINI YAWW-->
+        <h4><i class="fa fa-plus-circle me-2"></i> Tambah Transaksi</h4><
         <hr>
 
         <form action="{{ route('admin.keuangan.store') }}" method="POST">
