@@ -59,7 +59,7 @@
                             <i class="ti ti-arrow-left me-1"></i> Kembali
                         </a>
 
-                        <button type="submit" class="btn btn-warning text-white"><!--GANTI TEKS/ICON DISINI YAWW-->
+                        <button type="submit" class="btn btn-warning text-white">
                             <i class="ti ti-check me-1"></i> Perbarui
                         </button>
                     </div>
