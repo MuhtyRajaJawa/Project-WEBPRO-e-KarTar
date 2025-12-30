@@ -17,7 +17,6 @@
     <link href="{{ asset('backend/adminmart-master/assets/libs/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('backend/adminmart-master/dist/css/style.min.css') }}" rel="stylesheet">
 
-    <!-- Feather icons sudah di dalam custom js -->
      
     <!-- <style>
     /* Warna tombol menu sidebar yang sedang aktif */
