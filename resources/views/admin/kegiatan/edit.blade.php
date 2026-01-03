@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="d-flex justify-content-between mt-4">
-                        <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary"><!--GANTI TEKS/ICON DISINI YAWW-->
+                        <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary">
                             <i class="ti ti-arrow-left me-1"></i> Kembali
                         </a>
 
