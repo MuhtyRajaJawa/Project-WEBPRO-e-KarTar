@@ -138,7 +138,7 @@
 
             <!-- INPUT PASSWORD -->
             <div class="input-group">
-                <i class="fa-solid fa-lock"></i><!--GANTI TEKS/ICON DISINI YAWW-->
+                <i class="fa-solid fa-lock"></i>
                 <input type="password"
                        name="password"
                        placeholder="Password"
