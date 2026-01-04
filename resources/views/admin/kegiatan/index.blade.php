@@ -53,7 +53,7 @@
                         {{-- A K S I (TIDAK DIUBAH—CUMA TAMPILAN TABEL AJA) --}}
                         <td>
                             <a href="{{ route('admin.kegiatan.show', $k->id) }}" 
-                               class="btn btn-info btn-sm"><!--GANTI WARNA BUTTON DISINI JINK-->
+                               class="btn btn-info btn-sm">
                                 Detail
                             </a>
 
