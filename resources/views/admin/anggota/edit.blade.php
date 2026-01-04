@@ -9,7 +9,7 @@
             <div class="card-body">
 
                 <h4 class="card-title mb-4">
-                    <i class="fa fa-edit text-primary"></i> Edit Anggota<!--GANTI WARNA/TEKS/ICON DISINI JINK-->
+                    <i class="fa fa-edit text-primary"></i> Edit Anggota 
                 </h4>
 
                 <form action="{{ route('admin.anggota.update', $anggota->id) }}" method="POST">
