@@ -27,15 +27,13 @@ Website E-KARTAR dibuat untuk:
 4. Git & GitHub
 5. Laragon (Local Development Environment)
 
-> Tim Pengembang
-| Nama                              | NIM      | Peran                         |
-| --------------------------------- | -------- | ----------------------------- |
-| Muhty Alyansyah                   | 19241645 | Leader & Integrasi Sistem     |
-| Frediansyah Justisia              | 19240365 | Website Design                |
-| Eugenia Inez Muhkhlistiani Azaria | 19240375 | Fitur Anggota                 |
-| Daulia Artika Samdani             | 19240995 | Fitur Anggota                 |
-| Sahda Nabilah                     | 19240906 | Fitur Keuangan                |
-| Shafyya Putri Meyranti            | 19241373 | Testing                       |
+> Tim Pengembang                     
+1. Muhty Alyansyah(19241645) Leader & Integrasi Sistem     
+2. Frediansyah Justisia(19240365) Website Design                
+3. Eugenia Inez Muhkhlistiani Azaria(19240375) Fitur Anggota                 
+4. Daulia Artika Samdani(19240995) Fitur Anggota                 
+5. Sahda Nabilah(19240906) Fitur Keuangan                
+6. Shafyya Putri Meyranti(19241373) Testing                       
 
 > Cara Menjalankan Project
 1. Clone Repository
