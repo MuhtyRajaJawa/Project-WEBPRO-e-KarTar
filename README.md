@@ -1,66 +1,79 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+E-KARTAR 
+E-KARTAR adalah website sistem informasi berbasis web yang dirancang untuk membantu anggota Karang Taruna dalam mengelola data organisasi secara lebih efisien, terpusat, dan transparan.
+Sistem ini memudahkan pengelolaan anggota, kegiatan, dan keuangan dengan fitur CRUD lengkap (Create, Read, Update, Delete).
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+> Tujuan Project
+Website E-KARTAR dibuat untuk:
+1. Mempermudah pengurus Karang Taruna dalam mengelola data anggota.
+2. Mencatat dan mengelola kegiatan secara terstruktur.
+3. Mengelola data keuangan secara rapi dan transparan.
+4. Mengurangi pencatatan manual yang rawan kesalahan.
 
-## About Laravel
+> Fitur Utama
+1. Manajemen Anggota
+    Tambah, edit, hapus, dan lihat detail anggota.
+2. Manajemen Kegiatan
+    Pengelolaan data kegiatan Karang Taruna.
+3. Manajemen Keuangan
+    Pencatatan pemasukan dan pengeluaran.
+4. CRUD Lengkap
+    Semua data dapat ditambah, diubah, dihapus, dan dilihat detailnya.
+5. Antarmuka Web yang Mudah Digunakan
 
-Laravel is a web application framework muhtyjawa cihuy awaw digidaw with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+> Software yang kami gunakan;
+1. PHP 
+2. Laravel Framework
+3. MySQL
+4. Git & GitHub
+5. Laragon (Local Development Environment)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+> Tim Pengembang
+| Nama                              | NIM      | Peran                         |
+| --------------------------------- | -------- | ----------------------------- |
+| Muhty Alyansyah                   | 19241645 | Leader & Integrasi Sistem     |
+| Frediansyah Justisia              | 19240365 | Website Design                |
+| Eugenia Inez Muhkhlistiani Azaria | 19240375 | Fitur Anggota                 |
+| Daulia Artika Samdani             | 19240995 | Fitur Anggota                 |
+| Sahda Nabilah                     | 19240906 | Fitur Keuangan                |
+| Shafyya Putri Meyranti            | 19241373 | Testing                       |
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+> Cara Menjalankan Project
+1. Clone Repository
+git clone https://github.com/MuhtyRajajawa/Project-WEBPRO-e-KarTar.git
+cd Project-WEBPRO-e-KarTar
+2. Install Dependency
+composer install
+3. Copy Environment
+cp .env.sistemkartar .env
+php artisan key:generate
+4. Setting Database
+DB_DATABASE=db_karangtaruna
+DB_USERNAME=root
+DB_PASSWORD=
+5. Jalankan Migrasi
+php artisan migrate
+6. Jalankan Serve
+php artisan serve
+7. Akses Dibrowser
+http://127.0.0.1:8000/login
 
-## Learning Laravel
+> Alur Kerja Tim (Git Workflow)
+1. Setiap anggota bekerja di branch masing-masing
+2. Commit dilakukan secara bertahap
+3. Push ke branch
+4. Membuat Pull Request
+5. Leader melakukan review & merge ke main
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+> Bukti Kontribusi
+Kontribusi anggota dapat dilihat pada:
+Tab Commits
+Tab Pull Requests
+Tab Insights → Contributors
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+#Catatan
+Project ini dikembangkan secara kolaboratif menggunakan GitHub
+sebagai media version control dan dokumentasi kerja tim.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
