@@ -33,7 +33,7 @@
                 <input type="date" name="tanggal" class="form-control">
             </div>
 
-            <button class="btn btn-success"><!--GANTI TEKS/ICON DISINI YAWW-->
+            <button class="btn btn-success">
                 <i class="fa fa-save me-2"></i> Simpan
             </button>
 
