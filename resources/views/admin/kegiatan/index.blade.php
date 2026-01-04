@@ -9,8 +9,8 @@
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h4><i class="ti ti-calendar text-primary"></i> Data Kegiatan</h4>
 
-            <a href="{{ route('admin.kegiatan.create') }}" class="btn btn-primary"><!--GANTI WARNA BUTTON DISINI JINK-->
-                <i class="ti ti-plus"></i> Tambah Kegiatan<!--GANTI TEKS/ICON DISINI JINK-->
+            <a href="{{ route('admin.kegiatan.create') }}" class="btn btn-primary">
+                <i class="ti ti-plus"></i> 
             </a>
         </div>
 
