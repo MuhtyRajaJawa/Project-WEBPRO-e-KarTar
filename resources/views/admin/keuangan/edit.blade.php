@@ -31,7 +31,7 @@
 
             <div class="mb-3">
                 <label>Tanggal</label>
-                <input type="date" name="tanggal" value="{{ $data->tanggal }}" class="form-control"><!--ganti tanggal jd teks 'date, ganti 'text' disini-->
+                <input type="date" name="tanggal" value="{{ $data->tanggal }}" class="form-control">
             </div>
 
             <button class="btn btn-primary"><!--ganti teks/iconnya-->
