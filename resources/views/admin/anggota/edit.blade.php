@@ -49,7 +49,7 @@
                             <i class="fa fa-arrow-left"></i> Kembali
                         </a>
 
-                        <button type="submit" class="btn btn-primary"><!--GANTI WARNA BUTTON PERBARUI DATA DISINI JINK-->
+                        <button type="submit" class="btn btn-primary">
                             <i class="fa fa-save"></i> Perbarui Data<!--GANTI WARNA/TEKS/ICON DISINI JINK-->
                         </button>
                     </div>
