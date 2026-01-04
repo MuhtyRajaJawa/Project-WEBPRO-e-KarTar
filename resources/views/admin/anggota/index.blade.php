@@ -23,11 +23,11 @@
                 {{-- ============================== --}}
                 {{-- TABEL PENGURUS INTI --}}
                 {{-- ============================== --}}
-                <h5 class="text-primary fw-bold mb-2">PENGURUS INTI</h5><!--GANTI WARNA TEKS DISINI JINK-->
+                <h5 class="text-primary fw-bold mb-2">PENGURUS INTI</h5>
 
                 <div class="table-responsive mb-4">
                     <table class="table align-middle mb-0">
-                        <thead style="background-color: #102A43; color:#fff;"><!--GANTI TABEL WARNA BIRU TUA (ATAS) DISINI JINK-->
+                        <thead style="background-color: #102A43; color:#fff;">
                             <tr>
                                 <th>No</th>
                                 <th>Nama</th>
@@ -43,18 +43,18 @@
                             <tr>
                                 <td>{{ $i + 1 }}</td>
                                 <td>{{ $p->nama }}</td>
-                                <td><b class="text-primary">{{ $p->jabatan }}</b></td><!--GANTI WARNA JABATAN DISINI JINK-->
+                                <td><b class="text-primary">{{ $p->jabatan }}</b></td>
                                 <td>{{ $p->no_hp }}</td>
                                 <td>{{ $p->alamat }}</td>
 
                                 <td class="text-center">
-                                    <a href="{{ route('admin.anggota.edit', $p->id) }}" class="btn btn-info btn-sm"><!--GANTI WARNA BUTTON EDIT (ATAS) DISINI JINK-->
+                                    <a href="{{ route('admin.anggota.edit', $p->id) }}" class="btn btn-info btn-sm">
                                         <i class="ti ti-edit"></i> Edit
                                     </a>
                                     <form action="{{ route('admin.anggota.destroy', $p->id) }}" 
                                         method="POST" class="d-inline">
                                         @csrf @method('DELETE')
-                                        <button onclick="return confirm('Hapus?')" class="btn btn-danger btn-sm"><!--GANTI WARNA BUTTON HAPUS DISINI JINK-->
+                                        <button onclick="return confirm('Hapus?')" class="btn btn-danger btn-sm">
                                             <i class="ti ti-trash"></i> Hapus
                                         </button>
                                     </form>
@@ -70,11 +70,11 @@
                 {{-- ============================== --}}
                 {{-- TABEL ANGGOTA BIASA --}}
                 {{-- ============================== --}}
-                <h5 class="text-primary fw-bold mb-2">ANGGOTA KARTAR</h5><!--GANTI WARNA TEKS DISINI JINK-->
+                <h5 class="text-primary fw-bold mb-2">ANGGOTA KARTAR</h5>
 
                 <div class="table-responsive">
                     <table class="table align-middle mb-0">
-                        <thead style="background-color: #102A43; color:#fff;"><!--GANTI TABEL WARNA BIRU TUA (BAWAH) DISINI JINK-->
+                        <thead style="background-color: #102A43; color:#fff;">
                             <tr>
                                 <th>No</th>
                                 <th>Nama</th>
@@ -95,13 +95,13 @@
                                 <td>{{ $a->alamat }}</td>
 
                                 <td class="text-center">
-                                    <a href="{{ route('admin.anggota.edit', $a->id) }}" class="btn btn-info btn-sm"><!--GANTI WARNA BUTTON EDIT (BAWAH) DISINI JINK-->
+                                    <a href="{{ route('admin.anggota.edit', $a->id) }}" class="btn btn-info btn-sm">
                                         <i class="ti ti-edit"></i> Edit
                                     </a>
                                     <form action="{{ route('admin.anggota.destroy', $a->id) }}" 
                                         method="POST" class="d-inline">
                                         @csrf @method('DELETE')
-                                        <button onclick="return confirm('Hapus?')" class="btn btn-danger btn-sm"><!--GANTI WARNA BUTTON HAPUS (BAWAH) DISINI JINK-->
+                                        <button onclick="return confirm('Hapus?')" class="btn btn-danger btn-sm">
                                             <i class="ti ti-trash"></i> Hapus
                                         </button>
                                     </form>
