@@ -44,9 +44,9 @@
                             @if($k->status == 'Rencana')
                                 <span class="badge bg-warning text-dark">Rencana</span>
                             @elseif($k->status == 'Berjalan')
-                                <span class="badge bg-info text-dark">Berjalan</span><!--GANTI WARNA INFO DISINI JINK-->
+                                <span class="badge bg-info text-dark">Berjalan</span>
                             @else
-                                <span class="badge bg-success">Selesai</span><!--GANTI WARNA INFO DISINI JINK-->
+                                <span class="badge bg-success">Selesai</span>
                             @endif
                         </td>
 
