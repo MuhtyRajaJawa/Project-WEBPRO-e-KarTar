@@ -51,7 +51,7 @@
                 <div class="d-flex justify-content-between">
 
                     {{-- Kembali --}}
-                    <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary d-flex align-items-center"><!--GANTI TEKS/ICON DISINI YAWW-->
+                    <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary d-flex align-items-center">
                         <i class="ti ti-arrow-left me-1"></i> Kembali
                     </a>
 
