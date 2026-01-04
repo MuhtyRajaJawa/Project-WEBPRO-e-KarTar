@@ -34,7 +34,7 @@
                 <input type="date" name="tanggal" value="{{ $data->tanggal }}" class="form-control">
             </div>
 
-            <button class="btn btn-primary"><!--ganti teks/iconnya-->
+            <button class="btn btn-primary">
                 <i class="fa fa-save me-2"></i> Update
             </button>
 
