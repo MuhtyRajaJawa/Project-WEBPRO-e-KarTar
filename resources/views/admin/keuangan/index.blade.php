@@ -24,7 +24,7 @@
             <table class="table table-bordered table-striped align-middle">
                 <thead class="table-dark">
                     <tr class="text-center">
-                        <th>Nomor</th>
+                        <th>No</th>
                         <th>Tanggal</th>
                         <th>Keterangan</th>
                         <th>Jumlah</th>
@@ -45,20 +45,20 @@
                             @if($d->tipe == 'pemasukan')
                                 <span class="badge bg-success">Pemasukan</span>
                             @else
-                                <span class="badge bg-danger">Pengeluaran</span><!--GANTI WARNA/INFO DISINI-->
+                                <span class="badge bg-danger">Pengeluaran</span>
                             @endif
                         </td>
 
                         <td class="text-center">
-                            <a href="{{ route('admin.keuangan.edit', $d->id) }}" class="btn btn-warning btn-sm"><!--GANTI WARNA DISINI-->
-                                <i class="fa fa-edit"></i><!--GANTI TEKS/ICON DISINI-->
+                            <a href="{{ route('admin.keuangan.edit', $d->id) }}" class="btn btn-warning btn-sm">
+                                <i class="fa fa-edit"></i>
                             </a>
 
                             <form action="{{ route('admin.keuangan.destroy', $d->id) }}" method="POST" style="display:inline-block;">
                                 @csrf
                                 @method('DELETE')
-                                <button class="btn btn-danger btn-sm" onclick="return confirm('Hapus transaksi ini?')"><!--GANTI WARNA DISINI-->
-                                    <i class="fa fa-trash"></i><!--GANTI TEKS/ICON DISINI-->
+                                <button class="btn btn-danger btn-sm" onclick="return confirm('Hapus transaksi ini?')"
+                                    <i class="fa fa-trash"></i>
                                 </button>
                             </form>
                         </td>
