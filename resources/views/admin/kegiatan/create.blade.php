@@ -39,7 +39,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label class="form-label">Status</label><!--GANTI TEKS STATUS DISINI-->
+                        <label class="form-label">Status</label>
                         <select name="status" class="form-control">
                             <option value="Rencana">Rencana</option>
                             <option value="Berjalan">Berjalan</option>
