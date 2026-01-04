@@ -50,7 +50,7 @@
                         </a>
 
                         <button type="submit" class="btn btn-primary">
-                            <i class="fa fa-save"></i> Perbarui Data<!--GANTI WARNA/TEKS/ICON DISINI JINK-->
+                            <i class="fa fa-save"></i> Perbarui Data
                         </button>
                     </div>
 
