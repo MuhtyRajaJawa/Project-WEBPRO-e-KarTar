@@ -67,7 +67,7 @@
                                 @csrf
                                 @method('DELETE')
                                 <button onclick="return confirm('Hapus kegiatan ini?')" 
-                                        class="btn btn-danger btn-sm"><!--GANTI WARNA BUTTON DISINI JINK-->
+                                        class="btn btn-danger btn-sm">
                                     Hapus
                                 </button>
                             </form>
