@@ -12,7 +12,7 @@
             @method('PUT')
 
             <div class="mb-3">
-                <label>Deskripsi</label>
+                <label>Keterangan</label>
                 <input type="text" name="keterangan" value="{{ $data->keterangan }}" class="form-control">
             </div>
 
