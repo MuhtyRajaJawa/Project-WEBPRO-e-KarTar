@@ -15,7 +15,7 @@
 
                 {{-- Tombol Tambah --}}
                 <div class="mb-3">
-                    <a href="{{ route('admin.anggota.create') }}" class="btn btn-primary"> <!--GANTI WARNA BUTTON TAMBAH ANGGOTA BARU DISINI JINK-->
+                    <a href="{{ route('admin.anggota.create') }}" class="btn btn-primary"> 
                         <i class="ti ti-user-plus me-1"></i> Tambah Anggota Baru
                     </a>
                 </div>
