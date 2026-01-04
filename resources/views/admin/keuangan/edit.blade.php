@@ -23,7 +23,7 @@
 
             <div class="mb-3">
                 <label>Tipe</label>
-                <select name="tipe" class="form-select"><!--ganti info-->
+                <select name="tipe" class="form-select">
                     <option value="pemasukan" {{ $data->tipe == 'pemasukan'?'selected':'' }}>Pemasukan</option>
                     <option value="pengeluaran" {{ $data->tipe == 'pengeluaran'?'selected':'' }}>Pengeluaran</option>
                 </select>
