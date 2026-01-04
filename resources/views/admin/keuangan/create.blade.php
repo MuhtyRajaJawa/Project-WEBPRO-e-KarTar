@@ -30,7 +30,7 @@
 
             <div class="mb-3">
                 <label class="form-label">Tanggal</label>
-                <input type="date" name="tanggal" class="form-control"><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT" DISINI YAWW-->
+                <input type="date" name="tanggal" class="form-control">
             </div>
 
             <button class="btn btn-success"><!--GANTI TEKS/ICON DISINI YAWW-->
