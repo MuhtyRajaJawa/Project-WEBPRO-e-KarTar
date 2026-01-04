@@ -76,7 +76,7 @@
                                  style="width: 45px; height: auto; object-fit: contain;" /><!--GANTI LOGO(gambar) UBAH TEKS 54.PNG DISINI YAWW-->
                         </b>
                         <span class="logo-text">
-                            <span class="font-weight-bold" style="color: #6475E8;">E-KarTar</span><!--GANTI TEKS/WARNA DISINI YAWW-->
+                            <span class="font-weight-bold" style="color: #6475E8;">E-KarTar</span>
 
                     </a>
                 </div>
