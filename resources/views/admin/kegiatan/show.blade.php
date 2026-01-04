@@ -57,7 +57,7 @@
 
                     {{-- Edit --}}
                     <a href="{{ route('admin.kegiatan.edit', $kegiatan->id) }}"
-                       class="btn btn-warning text-white d-flex align-items-center"><!--GANTI TEKS/ICON DISINI YAWW-->
+                       class="btn btn-warning text-white d-flex align-items-center">
                         <i class="ti ti-edit me-1"></i> Edit
                     </a>
 
