@@ -53,7 +53,7 @@
                     {{-- Tombol --}}
                     <div class="d-flex justify-content-between mt-4">
                         <a href="{{ route('admin.anggota.index') }}" class="btn btn-secondary d-flex align-items-center">
-                            <i class="ti ti-arrow-left me-1"></i> Kembali<!--GANTI TEKS/ICON DISINI JINK-->
+                            <i class="ti ti-arrow-left me-1"></i> Kembali
                         </a>
 
                         <button type="submit" class="btn btn-success d-flex align-items-center">
