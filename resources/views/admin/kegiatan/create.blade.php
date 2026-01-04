@@ -30,7 +30,7 @@
 
                     <div class="mb-3">
                         <label class="form-label">Tanggal Selesai</label>
-                        <input type="date" name="tanggal_selesai" class="form-control" required><!--GANTI TANGGAL JADI TEKS "DATE" GANTI "TEXT"-->
+                        <input type="date" name="tanggal_selesai" class="form-control" required>
                     </div>
 
                     <div class="mb-3">
