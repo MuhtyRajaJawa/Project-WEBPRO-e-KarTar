@@ -57,7 +57,7 @@
                         </a>
 
                         <button type="submit" class="btn btn-success d-flex align-items-center">
-                            <i class="ti ti-plus me-1"></i> Tambah<!--GANTI TEKS/ICON DISINI JINK-->
+                            <i class="ti ti-plus me-1"></i> Tambah
                         </button>
                     </div>
 
