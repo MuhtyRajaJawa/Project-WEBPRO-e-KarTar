@@ -58,7 +58,7 @@
                             </a>
 
                             <a href="{{ route('admin.kegiatan.edit', $k->id) }}" 
-                               class="btn btn-warning btn-sm"><!--GANTI WARNA BUTTON DISINI JINK-->
+                               class="btn btn-warning btn-sm">
                                 Edit
                             </a>
 
