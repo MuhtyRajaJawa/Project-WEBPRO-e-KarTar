@@ -73,7 +73,7 @@
                         <b class="54">
                             <img src="{{ asset('backend/adminmart-master/assets/images/54.png') }}"
                                  alt="logo" class="dark-logo"
-                                 style="width: 45px; height: auto; object-fit: contain;" /><!--GANTI LOGO(gambar) UBAH TEKS 54.PNG DISINI YAWW-->
+                                 style="width: 45px; height: auto; object-fit: contain;" />
                         </b>
                         <span class="logo-text">
                             <span class="font-weight-bold" style="color: #6475E8;">E-KarTar</span>
