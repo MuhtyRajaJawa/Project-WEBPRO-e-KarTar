@@ -49,7 +49,7 @@
 
                     <div class="d-flex justify-content-between">
 
-                        <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary"><!--GANTI TEKS/ICON DISINI-->
+                        <a href="{{ route('admin.kegiatan.index') }}" class="btn btn-secondary">
                             Kembali
                         </a>
 
