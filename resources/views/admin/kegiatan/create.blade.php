@@ -53,7 +53,7 @@
                             Kembali
                         </a>
 
-                        <button type="submit" class="btn btn-primary">Simpan</button><!--GANTI TEKS/ICON DISINI-->
+                        <button type="submit" class="btn btn-primary">Simpan</button>
 
                     </div>
                 </form>
