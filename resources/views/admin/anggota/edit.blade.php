@@ -46,7 +46,7 @@
                     <!-- Tombol -->
                     <div class="d-flex justify-content-between mt-4">
                         <a href="{{ route('admin.anggota.index') }}" class="btn btn-secondary">
-                            <i class="fa fa-arrow-left"></i> Kembali<!--GANTI WARNA/TEKS/ICON DISINI JINK-->
+                            <i class="fa fa-arrow-left"></i> Kembali
                         </a>
 
                         <button type="submit" class="btn btn-primary"><!--GANTI WARNA BUTTON PERBARUI DATA DISINI JINK-->
