@@ -19,7 +19,7 @@
             <table class="table align-middle">
                 
                 {{-- HEADER GELAP --}}
-                <thead style="background-color:#152238; color:white;"><!--GANTI WARNA INFO (BIRU TUA) DISINI JINK-->
+                <thead style="background-color:#152238; color:white;">
                     <tr>
                         <th>No</th>
                         <th>Judul</th>
@@ -42,7 +42,7 @@
                         {{-- BADGE WARNA STATUS --}}
                         <td>
                             @if($k->status == 'Rencana')
-                                <span class="badge bg-warning text-dark">Rencana</span><!--GANTI WARNA INFO DISINI JINK-->
+                                <span class="badge bg-warning text-dark">Rencana</span>
                             @elseif($k->status == 'Berjalan')
                                 <span class="badge bg-info text-dark">Berjalan</span><!--GANTI WARNA INFO DISINI JINK-->
                             @else
