@@ -24,7 +24,7 @@
             <table class="table table-bordered table-striped align-middle">
                 <thead class="table-dark">
                     <tr class="text-center">
-                        <th>No</th>
+                        <th>Nomor</th>
                         <th>Tanggal</th>
                         <th>Keterangan</th>
                         <th>Jumlah</th>
@@ -43,7 +43,7 @@
 
                         <td class="text-center">
                             @if($d->tipe == 'pemasukan')
-                                <span class="badge bg-success">Pemasukan</span><!--GANTI WARNA/INFO DISINI-->
+                                <span class="badge bg-success">Pemasukan</span>
                             @else
                                 <span class="badge bg-danger">Pengeluaran</span><!--GANTI WARNA/INFO DISINI-->
                             @endif
