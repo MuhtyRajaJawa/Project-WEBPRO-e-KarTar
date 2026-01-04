@@ -99,7 +99,7 @@
                         <a class="nav-link dropdown-toggle" href="javascript:void(0)"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <img src="{{ asset('backend/adminmart-master/assets/images/users/juju.jpg') }}"
-                                 alt="user" class="rounded-circle" width="40"><!--GANTI LOGO(gambar) UBAH TEKS juju.jpg DISINI YAWW-->
+                                 alt="user" class="rounded-circle" width="40">
                             <span class="ml-2 d-none d-lg-inline-block">
                                 <span class="text-dark">{{ Auth::user()->name ?? 'Admin' }}</span>
                                 <i data-feather="chevron-down" class="svg-icon"></i>
