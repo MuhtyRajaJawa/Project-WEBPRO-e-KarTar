@@ -15,14 +15,14 @@
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h4><i class="fa fa-wallet me-2"></i> Data Keuangan</h4>
 
-            <a href="{{ route('admin.keuangan.create') }}" class="btn btn-primary"><!--GANTI WARNA DISINI-->
-                <i class="fa fa-plus-circle me-1"></i> Tambah Transaksi<!--GANTI TEKS/ICON disini-->
+            <a href="{{ route('admin.keuangan.create') }}" class="btn btn-primary">
+                <i class="fa fa-plus-circle me-1"></i> Tambah Transaksi
             </a>
         </div>
 
         <div class="table-responsive">
             <table class="table table-bordered table-striped align-middle">
-                <thead class="table-dark"><!--GANTI WARNA TABEL BIRU TUA DISINI-->
+                <thead class="table-dark">
                     <tr class="text-center">
                         <th>No</th>
                         <th>Tanggal</th>
