@@ -107,7 +107,7 @@
                         </a>
                         <div class="dropdown-menu dropdown-menu-right user-dd">
                             <!--<a class="dropdown-item" href="javascript:void(0)">
-                                <i data-feather="user" class="svg-icon mr-2 ml-1"></i> Profil GANTI TEKS/ICON DISINI YAWW
+                                <i data-feather="user" class="svg-icon mr-2 ml-1"></i> 
                             </a>-->
                             <div class="dropdown-divider"></div>
                             <form action="{{ route('logout') }}" method="POST">
