@@ -21,7 +21,7 @@
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Tipe</label><!--GANTI INFO DISINI YAWW-->
+                <label class="form-label">Tipe</label>
                 <select name="tipe" class="form-select">
                     <option value="pemasukan">Pemasukan</option>
                     <option value="pengeluaran">Pengeluaran</option>
